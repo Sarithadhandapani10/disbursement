@@ -1,0 +1,7 @@
+2022-05-19_13-48-54 [main] ERROR c.c.p.d.e.GlobalExceptionHandler - Aadhar Number Not found
+2022-05-19_13-48-54 [main] ERROR c.c.p.d.e.GlobalExceptionHandler - Missing request header 'Authorization' for method parameter of type String
+2022-05-19_13-48-54 [main] ERROR c.c.p.d.e.GlobalExceptionHandler - Not allowed
+2022-05-19_14-30-47 [http-nio-8103-exec-1] ERROR c.c.p.d.e.GlobalExceptionHandler - handles by handleFeignStatusException
+2022-05-19_14-30-47 [http-nio-8103-exec-1] ERROR c.c.p.d.e.GlobalExceptionHandler - [404] during [GET] to [http://localhost:8102/pensioner/jwt/t1/PensionerDetailByAadhaar/6298456278] [PensionDisbursementFeignClient#getPensionerDetailByAadhaar(String,long)]: [{"timeStamp":"19-05-2022 03:14:25","status":"NOT_FOUND","message":"Aadhar Card Number is not Valid. Please check it and try again"}]
+2022-05-19_14-30-47 [http-nio-8103-exec-2] ERROR c.c.p.d.e.GlobalExceptionHandler - handles by handleFeignStatusException
+2022-05-19_14-30-47 [http-nio-8103-exec-2] ERROR c.c.p.d.e.GlobalExceptionHandler - [404] during [GET] to [http://localhost:8102/pensioner/jwt/t1/PensionerDetailByAadhaar/6298456278] [PensionDisbursementFeignClient#getPensionerDetailByAadhaar(String,long)]: [{"timeStamp":"19-05-2022 03:14:40","status":"NOT_FOUND","message":"Aadhar Card Number is not Valid. Please check it and try again"}]

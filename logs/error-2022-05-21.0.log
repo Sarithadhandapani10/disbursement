@@ -1,0 +1,6 @@
+2022-05-21_21-50-53 [main] ERROR c.c.p.d.e.GlobalExceptionHandler - Aadhar Number Not found
+2022-05-21_21-50-53 [main] ERROR c.c.p.d.e.GlobalExceptionHandler - Missing request header 'Authorization' for method parameter of type String
+2022-05-21_21-50-53 [main] ERROR c.c.p.d.e.GlobalExceptionHandler - Not allowed
+2022-05-21_23-20-54 [main] ERROR c.c.p.d.e.GlobalExceptionHandler - Aadhar Number Not found
+2022-05-21_23-20-54 [main] ERROR c.c.p.d.e.GlobalExceptionHandler - Missing request header 'Authorization' for method parameter of type String
+2022-05-21_23-20-54 [main] ERROR c.c.p.d.e.GlobalExceptionHandler - Not allowed
