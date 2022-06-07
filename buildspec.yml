@@ -27,7 +27,7 @@ phases:
     - echo Pushing docker image
     - docker push 156962844638.dkr.ecr.us-east-1.amazonaws.com/pension_disbursement_839818:latest
     - echo Writting definition file
-    - printf '[{"name":"saritha-pms-pensioner-container","imageUri":"%s"}]' 156962844638.dkr.ecr.us-east-1.amazonaws.com/cde_fse:latest > imagedefinitions.json
+    - printf '[{"name":"saritha-pms-disbursement-container","imageUri":"%s"}]' 156962844638.dkr.ecr.us-east-1.amazonaws.com/cde_fse:latest > imagedefinitions.json
 artifacts:
   files:
   - PensionDisbursement-Microservice/imagedefinitions.json
