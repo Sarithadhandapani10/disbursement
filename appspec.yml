@@ -3,8 +3,8 @@ Resources:
 - TargetService:
 Type: AWS::ECS::Service
 Properties:
-TaskDefinition: "arn:aws:ecs:us-east-1:156962844638:task-definition/saritha-pms-pensioner-task-definition:1"
+TaskDefinition: "arn:aws:ecs:us-east-1:156962844638:task-definition/saritha-pms-disbursement-task-definition:1"
 LoadBalancerInfo:
-ContainerName: "saritha-pms-pensioner-container"
+ContainerName: "saritha-pms-disbursement-container"
 ContainerPort: 8103
 PlatformVersion: "LATEST"
